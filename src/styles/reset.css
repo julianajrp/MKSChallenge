@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+ul ol li{
+    list-style: none;
+
+}
+img{
+    max-width: 100%;
+}
+input, textarea, select {
+    outline: 0;
+}
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
+h1, h2, h3, h4, h5 ,h6, p, span, li, strong{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    
+}
+/* classes para images */
+.imgCart {
+    width: 25px;
+    height: 20px;
+}
+.imgBuy {
+    width: 25px;
+    height: 20px;
+}
+.imgProduct {
+    max-width: 200px;
+    max-height: 130px ;
+
+}
+.imgProductCart {
+    width: 60px;
+    height: 55px;
+}
+.imgModalClose{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 25px;
+}
+.imgDeleteItem{
+    width: 17px;
+    height: 14px;
+    
+    
+}
+/*classes para scrollbar*/
+.scroll::-webkit-scrollbar{
+    width: 2px;
+}
+.scroll::-webkit-scrollbar-track{
+    background-color: #e0dddd;
+}
+.scroll::-webkit-scrollbar-thumb{
+    background-color: #bcb9b9;
+    border-radius: 50%;
+    border: none;
+}
