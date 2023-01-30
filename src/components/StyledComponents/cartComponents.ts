@@ -6,7 +6,12 @@ export const CartDivAll = styled.div`
   background-color: #0f52ba;
   width: 30%;
   justify-content: space-between;
-
+  @media only screen and (max-width: 820px){
+    width: 45%;
+  }
+  @media only screen and (max-width: 390px){
+    width: 80%;
+  }
 `;
 
 export const DivAllTop = styled.div`
@@ -55,8 +60,14 @@ align-items: center;
 gap: 10px;
 background-color: #fff;
 border-radius:  10px;
-width: 300px;
+width: 310px;
 height: 87px;
+@media only screen and (max-width: 390px){
+  width: 280px;
+  height: 250px;
+  flex-direction: row;
+  justify-content: center;
+}
 `
 export const DivSeparating = styled.div`
 display: flex;
@@ -64,6 +75,9 @@ flex-direction: row;
 justify-content: center;
 gap: 10px;
 align-itens: center;
+@media only screen and (max-width: 390px){
+  flex-direction: column;
+}
 `
 export const DivContentDesc = styled.div`
 display: flex;
@@ -72,15 +86,26 @@ justify-content: space-between;
 gap: 10px;
 margin-top: 15px;
 align-itens: center;
+@media only screen and (max-width: 390px){
+  flex-direction: column;
+  justify-content: center;
+}
 `
 export const DivName = styled.div`
 width: 100px;
+@media only screen and (max-width: 390px){
+  width: 200px;
+}
 `
 export const DivTitleFromElse = styled.div`
 display: flex;
 flex-direction: row;
 justify-content: center;
 gap:9px;
+
+`
+export const DivWhithoutPrice = styled.div`
+
 `
 export const DivBtnAddLessCart = styled.div`
 display: flex;
@@ -88,6 +113,12 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 gap: 4px;
+border: 1px solid transparent;
+padding: 8px;
+@media only screen and (max-width: 390px){
+  border: 1px solid #e9e9e9
+  border-radius: 8px
+}
 
 `
 export const DivTotalsCart = styled.div`

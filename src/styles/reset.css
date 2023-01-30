@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5 ,h6, p, span, li, strong{
     width: 60px;
     height: 55px;
 }
+
 .imgModalClose{
     width: 25px;
     height: 25px;
@@ -52,8 +53,6 @@ h1, h2, h3, h4, h5 ,h6, p, span, li, strong{
 .imgDeleteItem{
     width: 17px;
     height: 14px;
-    
-    
 }
 /*classes para scrollbar*/
 .scroll::-webkit-scrollbar{
@@ -67,3 +66,13 @@ h1, h2, h3, h4, h5 ,h6, p, span, li, strong{
     border-radius: 50%;
     border: none;
 }
+@media only screen and (max-width: 390px){
+    .imgProductCart{
+        width: 180px;
+        height: 100px;
+    }
+    .imgDeleteItem{
+        width: 25px;
+        height: 20px;
+    }
+  }

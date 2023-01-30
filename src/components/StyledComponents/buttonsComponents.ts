@@ -54,6 +54,11 @@ export const ButtonDeleteItemFromCart = styled.button`
   top: -35px;
   left: 6px;
   cursor: pointer;
+  @media only screen and (max-width: 390px){
+    position: relative;
+    top: -88px;
+    left: 16px;
+  }
 `;
 export const EndShopBtn = styled.button`
   color: #fff;
@@ -71,5 +76,7 @@ export const AddLessBtnCartProduct = styled.button`
   letter-spacing: 1px;
   text-align: left;
   cursor: pointer;
-
+  @media only screen and (max-width: 390px){
+    font-size: 12px;
+  }
 `;

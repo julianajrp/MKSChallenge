@@ -6,6 +6,7 @@ import {
   DivName,
   DivSeparating,
   DivTitleFromElse,
+  DivWhithoutPrice,
 } from "../StyledComponents/cartComponents";
 import {
   AddLessCartProduct,
@@ -118,7 +119,7 @@ const CartProduct = ({ cartProduct }: iCartProps) => {
             <TitleCartProduct>{cartProduct.name}</TitleCartProduct>
           </DivName>
           <DivTitleFromElse>
-            <div>
+            <DivWhithoutPrice>
               <QntCartProduct>Qtd</QntCartProduct>
               <DivBtnAddLessCart>
                 <AddLessBtnCartProduct
@@ -133,7 +134,7 @@ const CartProduct = ({ cartProduct }: iCartProps) => {
                   +
                 </AddLessBtnCartProduct>
               </DivBtnAddLessCart>
-            </div>
+            </DivWhithoutPrice>
             <PriceCartProduct>R${priceSimplified}</PriceCartProduct>
           </DivTitleFromElse>
         </DivContentDesc>
