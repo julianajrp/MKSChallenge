@@ -11,6 +11,7 @@ export const CartDivAll = styled.div`
   }
   @media only screen and (max-width: 390px){
     width: 80%;
+    height: 100%;
   }
 `;
 
@@ -20,6 +21,10 @@ export const DivAllTop = styled.div`
   justify-content: center;
   align-items: center;
   gap: 10px;
+  @media only screen and (max-width: 390px){
+    height: 90%px;
+    justify-content: space-between;
+  }
 `;
 export const DivAllBotton = styled.div`
 display: flex;
@@ -41,6 +46,10 @@ export const UlProductsCart = styled.ul`
   gap: 10px;
   background-color: #0f52ba;
   max-height: 430px;
+  @media only screen and (max-width: 390px){
+    overflow-y: scroll;
+    height: 100%;
+  }
 `;
 export const DivBcgModal = styled.div`
   display: flex;
@@ -63,8 +72,9 @@ border-radius:  10px;
 width: 310px;
 height: 87px;
 @media only screen and (max-width: 390px){
-  width: 280px;
-  height: 250px;
+  width: 230px;
+  height: 200px;
+  padding: 5px 0px;
   flex-direction: row;
   justify-content: center;
 }

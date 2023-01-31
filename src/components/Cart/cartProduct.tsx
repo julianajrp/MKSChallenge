@@ -107,8 +107,6 @@ const CartProduct = ({ cartProduct }: iCartProps) => {
 
       console.log("Item colocado com sucesso!");
     }
-    // setCurrentSale([...currentSale, currentProduct]);
-    // console.log("Item colocado com sucesso!");
   }
   return (
     <DivCartContent>

@@ -68,11 +68,12 @@ h1, h2, h3, h4, h5 ,h6, p, span, li, strong{
 }
 @media only screen and (max-width: 390px){
     .imgProductCart{
-        width: 180px;
-        height: 100px;
+        width: 130px;
+        height: 80px;
+        margin-left: 50px;
     }
     .imgDeleteItem{
-        width: 25px;
+        width: 30px;
         height: 20px;
     }
   }

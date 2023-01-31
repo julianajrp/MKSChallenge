@@ -37,7 +37,7 @@ const Cart = () => {
               <img className="imgModalClose" src={close} alt="" />
             </ButtonCloseCart>
           </DivDescCart>
-          <UlProductsCart>
+          <UlProductsCart className="scroll">
             {currentSale.map((cartProduct) => {
               return (
                 <CartProduct key={cartProduct.id} cartProduct={cartProduct} />

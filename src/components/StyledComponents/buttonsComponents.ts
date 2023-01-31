@@ -56,8 +56,8 @@ export const ButtonDeleteItemFromCart = styled.button`
   cursor: pointer;
   @media only screen and (max-width: 390px){
     position: relative;
-    top: -88px;
-    left: 16px;
+    top: -74px;
+    left: -4px;
   }
 `;
 export const EndShopBtn = styled.button`
